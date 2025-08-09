@@ -1,0 +1,8 @@
+{
+  "name": "mohammadifaizulhasan_fdtest",
+  "private": true,
+  "workspaces": [
+    "apps/nextjs-app",
+    "apps/express-api"
+  ]
+}

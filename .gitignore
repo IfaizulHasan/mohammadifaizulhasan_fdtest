@@ -1,0 +1,50 @@
+# Node
+node_modules/
+
+# Build output
+/dist/
+/.next/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+.env.*
+
+# Prisma
+/apps/express-api/src/generated/
+/apps/express-api/prisma/migrations/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Others
+*.log
+*.sqlite
+
+# Ignore Next.js build
+apps/nextjs-app/.next/
+
+# Ignore Express build
+apps/express-api/dist/
+
+# Ignore shared package build
+packages/shared/dist/
+
+# Ignore coverage
+coverage/
+
+# Ignore test output
+*.test.js
+*.test.ts
+
+# Ignore lock files (optional, if using only one package manager)
+# yarn.lock
+# pnpm-lock.yaml
